@@ -1,12 +1,11 @@
 // RUN inside aelastics-store folder:
 // heft test --test-path-pattern ./src/test-implementation/test.test.ts
 
-import { iFoo, ImmerState, ImmutableTestStore, TestStore } from "./test"
+import { iFoo, ImmerState, TestStore } from "./test"
 
 let parent: iFoo
 let child: iFoo
 let store: any
-let immutableStore: ImmutableTestStore
 
 // describe("produce only the state", () => {
 //   beforeAll(() => {
